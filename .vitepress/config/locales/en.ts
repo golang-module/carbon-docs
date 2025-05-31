@@ -11,7 +11,7 @@ export const en = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/golang-module/carbon-docs/edit/src/en/:path',
+      pattern: 'https://github.com/golang-module/carbon-docs/blob/main/src/:path',
       text: 'Edit this page on GitHub'
     },
 
