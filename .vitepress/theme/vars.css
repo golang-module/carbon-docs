@@ -11,17 +11,18 @@ html[lang="zh-Hans"] {
 :root {
     --vp-layout-max-width: 100%;
     --vp-nav-logo-height: 20px;
-    @media (min-width: 960px) {
+    .VPContent .VPDoc {
         .content {
             padding: 0 0 20px 10px;
+            .content-container {
+                max-width: 100%;
+            }
+        }
+        .VPDocFooter {
+            margin-top: 0;
         }
     }
-    .VPDocFooter {
-        margin-top: 0;
-    }
-    .VPDoc.has-aside .content-container {
-        max-width: 100%;
-    }
+
     .VPNavBar .container {
         max-width: 100%;
     }

@@ -25,7 +25,7 @@ export const zh = defineConfig({
         },
 
         outline: {
-            level: [1, 6],
+            level: [2, 6],
             label: '当前页面'
         },
 

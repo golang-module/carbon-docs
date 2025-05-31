@@ -25,7 +25,7 @@ export const jp = defineConfig({
         },
 
         outline: {
-            level: [1, 6],
+            level: [2, 6],
             label: '現在のディレクトリ'
         },
 
