@@ -1,0 +1,29 @@
+html[lang="en-US"] {
+    --vp-code-copy-copied-text-content: 'Copied'
+}
+html[lang="ja-JP"] {
+    --vp-code-copy-copied-text-content: 'コピー済み'
+}
+html[lang="zh-Hans"] {
+    --vp-code-copy-copied-text-content: '已复制'
+}
+
+:root {
+    --vp-layout-max-width: 100%;
+    --vp-nav-logo-height: 20px;
+    @media (min-width: 960px) {
+        .content {
+            padding: 0 0 20px 10px;
+        }
+    }
+    .VPDocFooter {
+        margin-top: 0;
+    }
+    .VPDoc.has-aside .content-container {
+        max-width: 100%;
+    }
+    .VPNavBar .container {
+        max-width: 100%;
+    }
+}
+
