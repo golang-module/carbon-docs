@@ -8,9 +8,9 @@ carbon.SetTimezone(carbon.PRC)
 carbon.SetLocale("zh-CN")
 carbon.SetWeekStartsAt(carbon.Monday)
 carbon.SetWeekendDays([]carbon.Weekday{carbon.Saturday, carbon.Sunday,})
-
+```
 或
-
+```go
 carbon.SetDefault(carbon.Default{
   Layout: carbon.DateTimeLayout,
   Timezone: carbon.PRC,
