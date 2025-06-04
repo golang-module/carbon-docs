@@ -10,12 +10,10 @@
 
 <ul class="simple-list">
     <li>
-        支付宝账号：gouguolei@vip.qq.com
-        <img src="/alipay-qrcode.png" width="150px" alt="gvp"/>
+        支付宝：gouguolei@vip.qq.com
     </li>
     <li>
-        微信号：gouguolei
-        <img src="/wx-qrcode.png" width="150px" alt="gvp"/>
+        微信支付：gouguolei
     </li>
     <li>
         opencollective：<a target="_blank" rel="noreferrer" href="https://opencollective.com/go-carbon">opencollective.com/go-carbon</a>
