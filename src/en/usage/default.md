@@ -23,3 +23,12 @@ carbon.SetDefault(carbon.Default{
   WeekendDays: []carbon.Weekday{carbon.Saturday, carbon.Sunday,},
 })
 ```
+
+## Resetting global default
+To reset all global defaults to their original values:
+```go
+carbon.ResetDefault()
+```
+This is particularly useful in testing to ensure that changes in one test don't affect others.
+
+
