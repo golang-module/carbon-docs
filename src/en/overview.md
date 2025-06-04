@@ -1,12 +1,9 @@
-# 项目简介
+# Overview
 
-`carbon`  是一个轻量级、语义化、对开发者友好的 `golang` 时间处理库，不依赖于 `任何` 第三方库， `100%` 单元测试覆盖率，已被 [awesome-go](https://github.com/yinggaozhen/awesome-go-cn#日期和时间 "awesome-go-cn") 收录，并获得
-`gitee` 2024 年最有价值项目（`GVP`）和 `gitcode` 2024 年度开源摘星计划 (`G-Star`) 项目
+Carbon is a simple, semantic and developer-friendly time package for `golang`, `100%` unit test coverage, doesn't depend on `any` third-party library and has been included by [awesome-go](https://github.com/avelino/awesome-go#date-and-time "awesome-go").
+It offers comprehensive date and time functionality with a fluent interface design, extensive internationalization support, and additional features like alternative calendar systems and database integration.
 
-<img src="/gvp.jpg" width="100%" alt="gvp"/>
-<img src="/gstar.jpg" width="100%" alt="g-star"/>
-
-## 仓库地址
+## Repository
 
 [github.com/dromara/carbon](https://github.com/dromara/carbon "github.com/dromara/carbon")
 
@@ -14,7 +11,8 @@
 
 [gitcode.com/dromara/carbon](https://gitcode.com/dromara/carbon "gitcode.com/dromara/carbon")
 
-## 参考
+
+## References
 
 * [briannesbitt/carbon](https://github.com/briannesbitt/Carbon)
 * [nodatime/nodatime](https://github.com/nodatime/nodatime)

@@ -43,8 +43,18 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: 'Doc',
-      link: '/about',
-      activeMatch: '/about'
+      link: '/overview',
+      activeMatch: '/overview'
+    },
+    {
+      text: 'Sponsor',
+      link: '/sponsor',
+      activeMatch: '/sponsor'
+    },
+    {
+      text: 'CHANGELOG',
+      link: '/change-log',
+      activeMatch: '/change-log'
     },
   ]
 }
@@ -55,20 +65,19 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'getting-started',
       collapsed: false,
       items: [
-        {text: 'about', link: 'about',},
+        {text: 'overview', link: 'overview',},
         {text: 'installation', link: 'getting-started',},
       ]
     },
     {
-      text: 'usage and example',
+      text: 'Basic usage',
       collapsed: false,
       items: [
-        {text: 'set globally default', link: 'usage/set-default'},
+        {text: 'default', link: 'usage/default'},
         {text: 'converter', link: 'usage/converter'},
         {text: 'yesterday/today/tomorrow', link: 'usage/yesterday-today-tomorrow'},
         {text: 'creator', link: 'usage/creator'},
         {text: 'parser', link: 'usage/parser'},
-        {text: 'freeze', link: 'usage/freeze'},
         {text: 'boundary', link: 'usage/boundary'},
         {text: 'traveler', link: 'usage/traveler'},
         {text: 'difference', link: 'usage/difference'},
@@ -77,15 +86,21 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         {text: 'setter', link: 'usage/setter'},
         {text: 'getter', link: 'usage/getter'},
         {text: 'output', link: 'usage/output'},
+      ]
+    },
+    {
+      text: 'Advanced usage',
+      collapsed: false,
+      items: [
         {text: 'constellation', link: 'usage/constellation'},
         {text: 'season', link: 'usage/season'},
+        {text: 'freeze', link: 'usage/freeze'},
         {text: 'calendar', link: 'usage/calendar'},
         {text: 'i18n', link: 'usage/i18n'},
         {text: 'json', link: 'usage/json'},
       ]
     },
     { text: 'faq', link: 'faq'},
-    { text: 'changelog', link: 'faq'},
   ]
 }
 

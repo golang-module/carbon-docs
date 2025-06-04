@@ -1,6 +1,7 @@
-# About
+# 変更履歴
 
-A simple, semantic and developer-friendly time package for `golang`, `100%` unit test coverage, doesn't depend on `any` third-party library and has been included by [awesome-go](https://github.com/avelino/awesome-go#date-and-time "awesome-go")
+Carbon is a simple, semantic and developer-friendly time package for `golang`, `100%` unit test coverage, doesn't depend on `any` third-party library and has been included by [awesome-go](https://github.com/avelino/awesome-go#date-and-time "awesome-go").
+It offers comprehensive date and time functionality with a fluent interface design, extensive internationalization support, and additional features like alternative calendar systems and database integration.
 
 ## Repository
 

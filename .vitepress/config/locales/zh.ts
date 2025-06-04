@@ -54,8 +54,18 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
             text: '文档',
-            link: '/zh/about',
-            activeMatch: '/zh/about'
+            link: '/zh/overview',
+            activeMatch: '/zh/overview'
+        },
+        {
+            text: '捐赠',
+            link: '/zh/sponsor',
+            activeMatch: '/zh/sponsor'
+        },
+        {
+            text: '更新日志',
+            link: '/zh/change-log',
+            activeMatch: '/zh/change-log'
         },
     ]
 }
@@ -66,7 +76,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             text: '入门指引',
             collapsed: false,
             items: [
-                {text: '项目简介', link: 'about',},
+                {text: '项目简介', link: 'overview',},
                 {text: '快速开始', link: 'getting-started',},
             ]
         },
@@ -74,7 +84,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             text: '用法示例',
             collapsed: false,
             items: [
-                {text: '设置全局默认值', link: 'usage/set-default'},
+                {text: '设置默认值', link: 'usage/default'},
                 {text: 'carbon/time.Time 互转', link: 'usage/converter'},
                 {text: '昨天/今天/明天', link: 'usage/yesterday-today-tomorrow'},
                 {text: '创建 Carbon 实例', link: 'usage/creator'},
@@ -90,7 +100,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
                 {text: '时间输出', link: 'usage/output'},
                 {text: '星座', link: 'usage/constellation'},
                 {text: '季节', link: 'usage/season'},
-                {text: '日历', link: 'usage/calendar'},
+                {text: '历法', link: 'usage/calendar'},
                 {text: '国际化', link: 'usage/i18n'},
                 {text: 'json', link: 'usage/json'},
             ]

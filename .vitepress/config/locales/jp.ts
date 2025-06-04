@@ -54,8 +54,13 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
             text: 'ドキュメント',
-            link: '/jp/about',
-            activeMatch: '/jp/about'
+            link: '/jp/overview',
+            activeMatch: '/jp/overview'
+        },
+        {
+            text: '変更履歴',
+            link: '/jp/change-log',
+            activeMatch: '/jp/change-log'
         },
     ]
 }
@@ -74,7 +79,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             text: '使い方と例',
             collapsed: false,
             items: [
-                {text: 'グローバルのデフォルト値設定', link: 'usage/set-default'},
+                {text: 'グローバルのデフォルト値設定', link: 'usage/default'},
                 {text: 'carbon/time.Time 間の変換', link: 'usage/converter'},
                 {text: '昨日/現在/明日', link: 'usage/yesterday-today-tomorrow'},
                 {text: 'carbon インスタンスを作成する', link: 'usage/creator'},
@@ -96,7 +101,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             ]
         },
         { text: 'よくある質問', link: 'faq'},
-        { text: '更新ログ', link: 'faq'},
     ]
 }
 

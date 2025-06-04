@@ -31,7 +31,7 @@ features:
     details: Use a stable and reliable third-party library to ensure your application is secure and reliable.
   - icon: 📝
     title: Well-documented and well-tested
-    details: Complete documentation, complete testing. It provides comprehensive documentation and examples to help you get started quickly. It also includes a suite of tests to ensure that your application works as expected.
+    details: Zero third-party dependencies with 100% unit test coverage
 ---
 
 <style>

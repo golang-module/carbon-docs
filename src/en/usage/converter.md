@@ -1,19 +1,18 @@
-# Convert between `Carbon` and `time.Time`
+# Convert between `carbon` and `time.Time`
 
-## Convert standard Time.time to Carbon
+## Convert standard `time.Time` to `carbon`
 
 ```go
-carbon.NewCarbon(time.Now())
-
-loc, _ := time.LoadLocation(carbon.PRC)
-carbon.CreateFromStdTime(time.Now().In(loc))
+carbon.NewCarbon(time.Now().In(time.Local))
+```
+or
+```go
+carbon.CreateFromStdTime(time.Now().In(time.Local))
 ```
 
-## Convert Carbon to standard Time.time
-
+## Convert `carbon` to standard `time.Time`
 ```go
 carbon.Now().StdTime()
-
 carbon.Now(carbon.PRC).StdTime()
 ```
 `
